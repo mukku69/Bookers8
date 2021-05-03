@@ -10,4 +10,5 @@ class SearchesController < ApplicationController
       @books = Book.looks(params[:search], params[:word])
     end
   end
+  
 end
